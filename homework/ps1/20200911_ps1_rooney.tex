@@ -91,22 +91,53 @@ T = \sqrt{p^2+m^2}  - m
 A particle traveling towards a disk of radius $R$. Travelling parallel to an axis passing through the center of the disk. At a distance $b$ from the axis.
 
 \begin{equation}
-b=\frac{\sin{\alpha}}{R}
+b=R{\sin{\alpha}}
 \end{equation}
 \begin{equation}
   \Theta=\pi-2\alpha
 \end{equation}
 \begin{equation}
+  \alpha=\frac{\pi-\Theta}{2}
+\end{equation}
+\begin{equation}\label{eq:geometry}
   b=R\sin{\frac{\pi-\Theta}{2}}
 \end{equation}
 \begin{equation}
-  \frac{\textrm{d}{b}}{\textrm{d}{\Theta}}=-\frac{R}{2}\sin{\frac{\Theta}{2}}
+  \frac{{d}{b}}{{d}{\Theta}}=-\frac{R}{2}\sin{\frac{\Theta}{2}}
 \end{equation}
 \begin{equation}
-  \int_\pi^0-\frac{R}{2}\sin{\frac{\Theta}{2}}=R
+  \int_{-2\pi}^{0}-\frac{R}{2}\sin{\frac{\Theta}{2}}=2R
 \end{equation}
-This means that for the entire scattering range, $b$ must cover the whole range of $(0,R)$.
+This means that for the entire scattering range, $b$ must cover the whole range of $(-R,R)$. Or that the target size is equal to the Length $2R$.
 
 \section{Spherical Cross Section}
+We can plug equation \eqref{eq:geometry} into ${d}\sigma=b\cdot{d}b\cdot{d}\alpha$ to get:
+
+\begin{equation}
+  {d}\sigma=R\sin{\frac{\pi-\Theta}{2}}\cdot{d}b\cdot{d}\phi
+\end{equation}
+
+\begin{equation}
+  \oint{d}\sigma=\int_0^{2\pi}\int_0^R R\sin{\frac{\pi-\Theta}{2}}\cdot{d}b\cdot{d}\phi
+\end{equation}
+
+\begin{equation}
+  \sigma=2\pi R^2\sin{\frac{\pi-\Theta}{2}}
+\end{equation}
+
+\begin{equation}
+  \frac{d\sigma}{d\Theta}-\pi{R^2}\sin{\frac{\Theta}{2}}
+\end{equation}
+
+\begin{equation}
+  \oint\frac{d\sigma}{d\Theta}=\int_\pi^0-\pi{R^2}\sin{\frac{\Theta}{2}}d\Theta
+\end{equation}
+
+\begin{equation}
+  \sigma=\pi R^2
+\end{equation}
+
+Therefore the apparent cross-section of a sphere is the area of the circle cast by it.
+
 \end{document}
 

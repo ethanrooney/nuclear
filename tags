@@ -9,7 +9,7 @@ Cyclotron	homework/ps1/20200911_ps1_rooney.tex	/^\\end{table}$/;"	s
 Nsteps	examples/week2_examples/calculate_pi.py	/^Nsteps=100000000$/;"	v
 Nsteps	inclass/week2_examples/calculate_pi.py	/^Nsteps=100000000$/;"	v
 Proton Number  Neutron Number  Mass Number	homework/ps1/20200911_ps1_rooney.tex	/^\\maketitle$/;"	s
-Spherical Cross Section	homework/ps1/20200911_ps1_rooney.tex	/^This means that for the entire scattering range, $b$ must cover the whole range of $(0,R)$.$/;"	s
+Spherical Cross Section	homework/ps1/20200911_ps1_rooney.tex	/^This means that for the entire scattering range, $b$ must cover the whole range of $(-R,R)$. Or that the target size is equal to the Length $2R$.$/;"	s
 case1	homework/ps1/comp/foil.c	/^double case1(double tau, double b)$/;"	f
 case2	homework/ps1/comp/foil.c	/^double case2(double tau, double b)$/;"	f
 counter	examples/week2_examples/calculate_pi.py	/^counter=0$/;"	v
