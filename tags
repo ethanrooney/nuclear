@@ -1,0 +1,35 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Cross section of a Disk	homework/ps1/20200911_ps1_rooney.tex	/^\\end{table}$/;"	s
+Cyclotron	homework/ps1/20200911_ps1_rooney.tex	/^\\end{table}$/;"	s
+Nsteps	examples/week2_examples/calculate_pi.py	/^Nsteps=100000000$/;"	v
+Nsteps	inclass/week2_examples/calculate_pi.py	/^Nsteps=100000000$/;"	v
+Proton Number  Neutron Number  Mass Number	homework/ps1/20200911_ps1_rooney.tex	/^\\maketitle$/;"	s
+Spherical Cross Section	homework/ps1/20200911_ps1_rooney.tex	/^This means that for the entire scattering range, $b$ must cover the whole range of $(0,R)$.$/;"	s
+case1	homework/ps1/comp/foil.c	/^double case1(double tau, double b)$/;"	f
+case2	homework/ps1/comp/foil.c	/^double case2(double tau, double b)$/;"	f
+counter	examples/week2_examples/calculate_pi.py	/^counter=0$/;"	v
+counter	inclass/week2_examples/calculate_pi.py	/^counter=0$/;"	v
+g	examples/week2_examples/plot.py	/^def g(x,a,b):$/;"	f
+g	inclass/week2_examples/plot.py	/^def g(x,a,b):$/;"	f
+main	homework/ps1/comp/foil.c	/^int main(int argc, char** argv)$/;"	f
+pGuess	examples/week2_examples/plot.py	/^pGuess=[-0.2,0.9] # this is my initial guess$/;"	v
+pGuess	inclass/week2_examples/plot.py	/^pGuess=[-0.2,0.9] # this is my initial guess$/;"	v
+pUnc	examples/week2_examples/plot.py	/^pUnc = np.sqrt(np.diag(pCov))$/;"	v
+pUnc	inclass/week2_examples/plot.py	/^pUnc = np.sqrt(np.diag(pCov))$/;"	v
+pi_estimate	examples/week2_examples/calculate_pi.py	/^        pi_estimate = float(counter)*4.\/float(i+1)$/;"	v
+pi_estimate	inclass/week2_examples/calculate_pi.py	/^        pi_estimate = float(counter)*4.\/float(i+1)$/;"	v
+rand_b	homework/ps1/comp/foil.c	/^double rand_b()$/;"	f
+rand_tau	homework/ps1/comp/foil.c	/^double rand_tau()$/;"	f
+x	examples/week2_examples/calculate_pi.py	/^    x=r.uniform(-1.,1.)$/;"	v
+x	inclass/week2_examples/calculate_pi.py	/^    x=r.uniform(-1.,1.)$/;"	v
+xData	examples/week2_examples/hist_plot.py	/^xData = np.loadtxt("gaussian_data.txt")$/;"	v
+xData	inclass/week2_examples/hist_plot.py	/^xData = np.loadtxt("gaussian_data.txt")$/;"	v
+xVals	examples/week2_examples/plot.py	/^xVals=np.arange(-4,8,0.1) $/;"	v
+xVals	inclass/week2_examples/plot.py	/^xVals=np.arange(-4,8,0.1) $/;"	v
+y	examples/week2_examples/calculate_pi.py	/^    y=r.uniform(-1.,1.)$/;"	v
+y	inclass/week2_examples/calculate_pi.py	/^    y=r.uniform(-1.,1.)$/;"	v
