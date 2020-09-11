@@ -28,8 +28,8 @@
     Technetium-99 & 43      & 56      & 99      & \begin{tabular}[t]{@{}l@{}}Meta-Stable ($^{99m}$Tc) \\
                                                 used widely for medical imaging\end{tabular} \\ \hline
     Lead-208      & 82      & 126     & 208     & \begin{tabular}[t]{@{}l@{}}Ratio of Pb-208:Pb-204 \\
-                                                used to determine past pressence \\
-                                                Radio-Nucliades: Uranium/Thorium/Plutonium.\end{tabular} \\ \hline
+                                                used to determine past presence \\
+                                                Radio-Nuclides: Uranium/Thorium/Plutonium.\end{tabular} \\ \hline
     Radium-226    & 88      & 138     & 226     & \begin{tabular}[t]{@{}l@{}}Daughter of $^{238}$U Decay \\
                                                 A Leading Cause of Lung Cancer \end{tabular} \\ \hline
     Uranium-235   & 92      & 143     & 235     & \begin{tabular}[t]{@{}l@{}}Naturally in Uranium Ore $0.72\%$ \\ 
@@ -49,6 +49,7 @@
   \end{tabular}
 \end{table}
 
+\pagebreak
 \section{Cyclotron}
 
 Given: $p = 200 \textrm{MeV}$, $m = 938 \textrm{MeV}$, $\Delta{T}=100\textrm{KV}$, $k=e$
@@ -79,6 +80,7 @@ T = \sqrt{p^2+m^2}  - m
   \end{tabular}
 \end{table}
 
+\pagebreak
 \section{Cross section of a Disk}
 
 \begin{figure}[h]
@@ -110,6 +112,7 @@ b=R{\sin{\alpha}}
 \end{equation}
 This means that for the entire scattering range, $b$ must cover the whole range of $(-R,R)$. Or that the target size is equal to the Length $2R$.
 
+\pagebreak
 \section{Spherical Cross Section}
 We can plug equation \eqref{eq:geometry} into ${d}\sigma=b\cdot{d}b\cdot{d}\alpha$ to get:
 
@@ -137,7 +140,18 @@ We can plug equation \eqref{eq:geometry} into ${d}\sigma=b\cdot{d}b\cdot{d}\alph
   \sigma=\pi R^2
 \end{equation}
 
-Therefore the apparent cross-section of a sphere is the area of the circle cast by it.
+Therefore the apparent cross-section of a sphere is the area of a shadow cast by it.
+
+\pagebreak
+\section{Computational}
+
+Here is the scattering Histogram for an equilateral Triage foil.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=400pt]{hist.png}
+  \label{fig:hist}
+\end{figure}
 
 \end{document}
 

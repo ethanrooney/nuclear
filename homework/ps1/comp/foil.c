@@ -35,17 +35,22 @@ double rand_b()
 
 int main(int argc, char** argv)
 {
+  double Theta;
   srand48(time(0));
-  for(int i = 0; i<1000; i++)
+  for(int i = 0; i<atoi(argv[1]);)
   {
     double tau = rand_tau();
     if(tau<M_PI/6.0)
     {
-      printf("%f\n",fabs(case1(tau,rand_b())));
+      Theta=fabs(case1(tau,rand_b()));
     }
     if(tau>M_PI/6.0)
     {
-      printf("%f\n",fabs(case2(tau,rand_b())));
+      Theta=fabs(case2(tau,rand_b()));
+    }
+    if(Theta>0){
+      printf("%f\n",Theta);
+      i++;
     }
   }
 }

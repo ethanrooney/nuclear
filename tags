@@ -4,12 +4,15 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
-Cross section of a Disk	homework/ps1/20200911_ps1_rooney.tex	/^\\end{table}$/;"	s
-Cyclotron	homework/ps1/20200911_ps1_rooney.tex	/^\\end{table}$/;"	s
+Computational	homework/ps1/20200911_ps1_rooney.tex	/^\\pagebreak$/;"	s
+Cross section of a Disk	homework/ps1/20200911_ps1_rooney.tex	/^\\pagebreak$/;"	s
+Cyclotron	homework/ps1/20200911_ps1_rooney.tex	/^\\pagebreak$/;"	s
+FALSE	homework/ps1/comp/tfmk2.c	7;"	d	file:
 Nsteps	examples/week2_examples/calculate_pi.py	/^Nsteps=100000000$/;"	v
 Nsteps	inclass/week2_examples/calculate_pi.py	/^Nsteps=100000000$/;"	v
 Proton Number  Neutron Number  Mass Number	homework/ps1/20200911_ps1_rooney.tex	/^\\maketitle$/;"	s
-Spherical Cross Section	homework/ps1/20200911_ps1_rooney.tex	/^This means that for the entire scattering range, $b$ must cover the whole range of $(-R,R)$. Or that the target size is equal to the Length $2R$.$/;"	s
+Spherical Cross Section	homework/ps1/20200911_ps1_rooney.tex	/^\\pagebreak$/;"	s
+TRUE	homework/ps1/comp/tfmk2.c	6;"	d	file:
 case1	homework/ps1/comp/foil.c	/^double case1(double tau, double b)$/;"	f
 case2	homework/ps1/comp/foil.c	/^double case2(double tau, double b)$/;"	f
 counter	examples/week2_examples/calculate_pi.py	/^counter=0$/;"	v
@@ -17,6 +20,7 @@ counter	inclass/week2_examples/calculate_pi.py	/^counter=0$/;"	v
 g	examples/week2_examples/plot.py	/^def g(x,a,b):$/;"	f
 g	inclass/week2_examples/plot.py	/^def g(x,a,b):$/;"	f
 main	homework/ps1/comp/foil.c	/^int main(int argc, char** argv)$/;"	f
+main	homework/ps1/comp/tfmk2.c	/^int main(int argc, char** argv)$/;"	f
 pGuess	examples/week2_examples/plot.py	/^pGuess=[-0.2,0.9] # this is my initial guess$/;"	v
 pGuess	inclass/week2_examples/plot.py	/^pGuess=[-0.2,0.9] # this is my initial guess$/;"	v
 pUnc	examples/week2_examples/plot.py	/^pUnc = np.sqrt(np.diag(pCov))$/;"	v
