@@ -4,22 +4,45 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Bound Dirac Delta Well	homework/ps2/ps2.tex	/^Relied heavily on Griffiths Into to QM Pg 44-46.$/;"	s
 Computational	homework/ps1/20200911_ps1_rooney.tex	/^\\pagebreak$/;"	s
 Cross section of a Disk	homework/ps1/20200911_ps1_rooney.tex	/^\\pagebreak$/;"	s
 Cyclotron	homework/ps1/20200911_ps1_rooney.tex	/^\\pagebreak$/;"	s
+Multiplicity of an Einstein Solid	homework/ps2/ps2.tex	/^\\maketitle$/;"	s
+N_scatters	examples/ps1/triangle.py	/^    N_scatters=1000000$/;"	v
 Nsteps	examples/week2_examples/calculate_pi.py	/^Nsteps=100000000$/;"	v
 Nsteps	inclass/week2_examples/calculate_pi.py	/^Nsteps=100000000$/;"	v
+PI	homework/ps2/code/integrate.c	/^double PI =		3.1415926535897932385;$/;"	v
 Proton Number  Neutron Number  Mass Number	homework/ps1/20200911_ps1_rooney.tex	/^\\maketitle$/;"	s
+Quantum Harmonic Ladder Operators	homework/ps2/ps2.tex	/^\\end{equation}$/;"	s
 Spherical Cross Section	homework/ps1/20200911_ps1_rooney.tex	/^\\pagebreak$/;"	s
+angles	examples/ps1/triangle.py	/^    angles=[0,math.pi-math.asin(0.5*base\/dists[1]),math.pi+math.asin(0.5*base\/dists[1])]$/;"	v
+b	examples/ps1/triangle.py	/^        b=2.*max_dist*(random.random()-0.5) # Pick an impact parameter from +\/- the max possible$/;"	v
+bases	examples/ps1/triangle.py	/^bases=[0.5,1.0,1.5]$/;"	v
+beta	examples/ps1/triangle.py	/^    beta=math.asin(0.5*base\/side)$/;"	v
 case1	homework/ps1/comp/foil.c	/^double case1(double tau, double b)$/;"	f
 case1	homework/ps1/comp/tfmk2.c	/^double case1(double tau, double b, double len)$/;"	f
 case2	homework/ps1/comp/foil.c	/^double case2(double tau, double b)$/;"	f
+corners	examples/ps1/triangle.py	/^        corners=[]$/;"	v
 counter	examples/week2_examples/calculate_pi.py	/^counter=0$/;"	v
 counter	inclass/week2_examples/calculate_pi.py	/^counter=0$/;"	v
+dists	examples/ps1/triangle.py	/^    dists=[2.\/3.*side*math.cos(beta),math.sqrt(sq(0.5*base) + sq(1.\/3.*side*math.cos(beta))),math.sqrt(sq(0.5*base) + sq(1.\/3.*side*math.cos(beta)))]$/;"	v
+f	homework/ps2/code/integrate.c	/^double complex f(double complex* x, double complex* res)$/;"	f
+f	homework/ps2/code/rk2.c	/^void f( double complex* vect, double complex* res , double x, double energy)$/;"	f
+fitfunc	examples/ps1/plot.py	/^def fitfunc(x,a):$/;"	f
 g	examples/week2_examples/plot.py	/^def g(x,a,b):$/;"	f
 g	inclass/week2_examples/plot.py	/^def g(x,a,b):$/;"	f
+gamma	examples/ps1/triangle.py	/^        gamma=2.*math.pi*random.random()$/;"	v
+hists	examples/ps1/triangle.py	/^hists=[]$/;"	v
+impact	examples/ps1/triangle.py	/^def impact(point1,point2,b):$/;"	f
+integrate_rk2	homework/ps2/code/rk2.c	/^void integrate_rk2(double complex* y, double dx, double complex* yn, double x, double energy)$/;"	f
+integratemiddle	homework/ps2/code/integrate.c	/^double complex integratemiddle(double a, double b, long int N)$/;"	f
+k	homework/ps2/code/rk2.c	/^double complex k(double x, double energy)$/;"	f
 main	homework/ps1/comp/foil.c	/^int main(int argc, char** argv)$/;"	f
 main	homework/ps1/comp/tfmk2.c	/^int main(int argc, char** argv)$/;"	f
+main	homework/ps2/code/integrate.c	/^int main(int argc, char** argv)$/;"	f
+main	homework/ps2/code/rk2.c	/^int main(int argc, char** argv)$/;"	f
+max_dist	examples/ps1/triangle.py	/^    max_dist=max(dists)$/;"	v
 pGuess	examples/week2_examples/plot.py	/^pGuess=[-0.2,0.9] # this is my initial guess$/;"	v
 pGuess	inclass/week2_examples/plot.py	/^pGuess=[-0.2,0.9] # this is my initial guess$/;"	v
 pUnc	examples/week2_examples/plot.py	/^pUnc = np.sqrt(np.diag(pCov))$/;"	v
@@ -31,6 +54,11 @@ rand_b	homework/ps1/comp/tfmk2.c	/^double rand_b()$/;"	f
 rand_side	homework/ps1/comp/tfmk2.c	/^double rand_side(double* array)$/;"	f
 rand_tau	homework/ps1/comp/foil.c	/^double rand_tau()$/;"	f
 rand_tau	homework/ps1/comp/tfmk2.c	/^double rand_tau()$/;"	f
+scattering_angle	examples/ps1/triangle.py	/^def scattering_angle(corners,b):$/;"	f
+side	examples/ps1/triangle.py	/^side=1$/;"	v
+sq	examples/ps1/triangle.py	/^def sq(x):$/;"	f
+theta	examples/ps1/triangle.py	/^        theta=scattering_angle(corners,b)$/;"	v
+thetas	examples/ps1/triangle.py	/^    thetas=[]$/;"	v
 x	examples/week2_examples/calculate_pi.py	/^    x=r.uniform(-1.,1.)$/;"	v
 x	inclass/week2_examples/calculate_pi.py	/^    x=r.uniform(-1.,1.)$/;"	v
 xData	examples/week2_examples/hist_plot.py	/^xData = np.loadtxt("gaussian_data.txt")$/;"	v
