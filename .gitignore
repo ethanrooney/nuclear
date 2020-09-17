@@ -3,3 +3,13 @@
 *.dat*
 *.tar*
 *.swp
+textbook/*
+*.4ct
+*4tc
+*.css
+*.dvi
+*.html
+*.idv
+*.lg
+*.tmp
+*.xref
