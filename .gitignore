@@ -13,3 +13,4 @@ textbook/*
 *.lg
 *.tmp
 *.xref
+lectures/*
